@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Name, required, max character length -->
+    <form>
+      <label for="name">Name (4 to 8 characters):</label>
+      <br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+      <button value="submit">Submit</button>
+      <br />
+    </form>
+    <br />
+
+    <!-- Option dropdown -->
+    <form>
+      <label for="option">Option</label> <br />
+      <select id="option">
+        <option value="Language" selected>Select a Language</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="React">React</option>
+      </select>
+      <button>Submit</button>
+    </form>
+    <br />
+
+    <!-- label for gets you to select the option -->
+    <form>
+      <label for="check">Agree with terms</label>
+      <input type="checkbox" id="check" />
+    </form>
+    <br />
+
+    <!-- Fieldset -->
+    <fieldset>
+      <legend>Choose your favorite monster</legend>
+
+      <input type="radio" id="kraken" name="monster" />
+      <label for="kraken">Kraken</label><br />
+
+      <input type="radio" id="sasquatch" name="monster" />
+      <label for="sasquatch">Sasquatch</label><br />
+
+      <input type="radio" id="mothman" name="monster" />
+      <label for="mothman">Mothman</label>
+    </fieldset>
+    <button>Submit</button> <br />
+
+    <!-- Fieldset -->
+    <form>
+      <fieldset>
+        <legend>Contact me</legend>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="name" id="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="msg">Email</label>
+          <textarea
+            id="msg"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
+        <input type="submit" value="Send" class="submit-btn" />
+      </fieldset>
+    </form>
+    <br />
+
+    <!-- Password and button using input type submit -->
+    <form>
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" required /><br />
+      <label for="pwd">Password:</label><br />
+      <input type="password" id="pwd" name="pwd" required />
+      <input type="submit" value="Login" />
+      <input type="reset" name="" />
+    </form>
+    <br />
+
+    <!-- Checkbox -->
+    <form>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label>
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+
+    <!-- input type button alert -->
+    <input type="button" onclick="alert('Message shown')" value="Click me!" />
+    <br />
+
+    <!-- color -->
+    <form>
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" id="favcolor" name="favcolor" />
+    </form>
+    <br />
+
+    <!-- URL -->
+    <form>
+      <label for="homepage">Add your homepage:</label>
+      <input type="url" id="homepage" name="homepage" />
+    </form>
+    <br />
+
+    <!-- Search -->
+    <form>
+      <label for="gsearch">Search Google:</label>
+      <input type="search" id="gsearch" name="gsearch" />
+    </form>
+    <br />
+
+    <!-- Range -->
+    <form>
+      <label for="vol">Volume (between 0 and 50):</label>
+      <input type="range" id="vol" name="vol" min="0" max="50" />
+    </form>
+    <br />
+
+    <!-- number -->
+    <form>
+      <label for="quantity">Quantity (between 1 and 5):</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="5" />
+    </form>
+    <br />
+
+    <!-- hidden -->
+    <form>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <input type="hidden" id="custId" name="custId" value="3487" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+
+    <!-- upload file -->
+    <form>
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile" />
+    </form>
+    <br />
+
+    <!-- email -->
+    <form>
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email" />
+    </form>
+    <br />
+  </body>
+</html>
