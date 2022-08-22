@@ -8,7 +8,7 @@ h1{
   color: aqua;
   font-size: 7rem;
   text-shadow: 6rem;
-  margin: 30px;
+  margin: 35px;
 }
 
 .container{
@@ -36,7 +36,7 @@ h1{
 }
 
 .link a:hover{
-  color: black;
+  color: grey;
   text-decoration: underline;
 }
 
