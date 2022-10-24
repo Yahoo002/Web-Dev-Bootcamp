@@ -29,6 +29,11 @@ footer {
   margin-top: 11%;
 }
 
+.pressed {
+  box-shadow: 0 3px 4px 0 red;
+  opacity: 0.5;
+}
+
 .drum {
   outline: none;
   border: 8px solid gray;
