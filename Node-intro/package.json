@@ -1,0 +1,14 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "Introduction to Node and its functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yahya",
+  "license": "ISC",
+  "dependencies": {
+    "f1-api": "^1.2.0"
+  }
+}
