@@ -1,0 +1,7 @@
+HTML return codes cheat sheet
+
+1** - Hold on something's going to happen (any 100s)
+2** - Here you go (successful code)
+3** - Go away for security purposes
+4** - you screwed up
+5** - I screwed up
